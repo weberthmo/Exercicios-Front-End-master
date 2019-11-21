@@ -1,0 +1,82 @@
+*{margin: 0; padding: 0;}
+
+body{font-family: "Trebuchet MS", Arial, Tahoma;}
+
+/* INICIO CONTAINER */
+.container{width: 1000px; height: auto; margin: 5px auto 0 auto; text-align: left;}
+/* FIM CONTAINER */
+
+/* INICIO TOPO */
+.topo{width: 100%; height: 140px; background: #161C21; margin-bottom: 5px; position: relative;}
+.topo h1{font-family:"Trebuchet MS",Helvetica,sans-serif; font-size: 35px; color: #fff; position: absolute; top: 30px; left: 10px;}
+.topo span{font-family:"Trebuchet MS",Helvetica,sans-serif; font-size: 16px; color: #D67128; position: absolute; top: 70px; left: 10px;}
+.topo .search{float: right; position: absolute; top: 50px; right: 50px;}
+.topo .search input{width: 280px; border: 1px solid #ccc; padding: 10px;}
+/* FIM TOPO */
+
+/* INICIO MENU */
+.menu-superior{width: 100%; height: 40px; background: #EFEDDF; border-top: 1px solid; border-bottom: 1px solid; margin-bottom: 5px;}
+.menu-superior ul{margin: 0; padding: 0; list-style: none;}
+.menu-superior ul li{float: left;}
+.menu-superior ul li a{text-decoration: none; color: #000; font-size: 14px; padding: 10px; display: block;}
+.menu-superior ul li a:hover{color: #fff; background: #161C21;}
+/* FIM MENU */
+
+/* INICIO CONTENT */
+.content{width: 640px; height: auto; float: left;}
+/* FIM CONTENT */
+
+/* INICIO DESTAQUES */
+.destaques{background: #EFEDDF; width: 100%; height: auto; float: right;}
+.destaques h1{background: #4D6173; font-size: 20px; color: #fff; text-transform: uppercase; height: 25px; padding: 10px;}
+.destaques h2{font-size: 20px; margin: 5px 0 5px 0;}
+.destaques p{font-size: 14px; line-height: 20px;}
+.destaques img{float: left; margin: 10px;}
+.destaques a{text-decoration: none; float: right; margin-right: 10px; background: #4D6173; padding: 2px 2px 2px 2px; color: #fff; font-size: 14px;}
+.destaques a:hover{text-decoration: underline;}
+/* FIM DESTAQUES */
+
+/* INICIO BOX BACK-END */
+.back-end{background: #EFEDDF; width: 315px; height: auto; float: left; margin-top: 8px;}
+.back-end h1{background: #4D6173; font-size: 20px; color: #fff; text-transform: uppercase; height: 25px; padding: 10px;}
+.back-end h2{font-size: 20px; margin: 10px 0 10px 10px;}
+.back-end p{font-size: 14px; line-height: 20px; margin: 0 10px 10px 10px;}
+.back-end a{text-decoration: none; float: right; margin-right: 10px; background: #4D6173; padding: 2px 2px 2px 2px; color: #fff; font-size: 14px;}
+.back-end a:hover{text-decoration: underline;}
+.back-end h3{background: #4D6173; font-size: 17px; color: #fff; text-align: center; margin: 15px 0 10px 0;}
+.back-end ul{margin: 0 0 10px 30px; padding: 0;}
+.back-end ul li{font-size: 15px;}
+/* FIM BOX BACK-END */ 
+
+/* INICIO BOX FRONT-END */
+.front-end{background: #EFEDDF; width: 315px; height: auto; float: right; margin: 8px 0 10px 0;}
+.front-end h1{background: #4D6173; font-size: 20px; color: #fff; text-transform: uppercase; height: 25px; padding: 10px;}
+.front-end h2{font-size: 20px; margin: 10px 0 10px 10px;}
+.front-end p{font-size: 14px; line-height: 20px; margin: 0 10px 10px 10px;}
+.front-end a{text-decoration: none; float: right; margin-right: 10px; background: #4D6173; padding: 2px 2px 2px 2px; color: #fff; font-size: 14px;}
+.front-end a:hover{text-decoration: underline;}
+.front-end h3{background: #4D6173; font-size: 17px; color: #fff; text-align: center; margin: 15px 0 10px 0;}
+.front-end ul{margin: 0 0 10px 30px; padding: 0;}
+.front-end ul li{font-size: 15px;}
+/* FIM BOX FRONT-END */
+
+/* INICIO SIDEBAR */
+.sidebar{background: #EFEDDF; width: 350px; height: auto; float: right; border: 1px solid #ddd;}
+.sidebar .maislidos{width: 350px; margin: 0 auto; background: #fff; padding-bottom: 10px;}
+.sidebar .maislidos h1{background: #4D6173; font-size: 20px; color: #fff; text-transform: uppercase; height: 25px; padding: 10px;}
+.sidebar ul{margin: 10px 0 10px 25px; padding: 5px;}
+.sidebar ul li{font-size: 15px;}
+.sidebar ul li a{text-decoration: none; color: #000;}
+.sidebar ul li a:hover{text-decoration: underline;}
+.publicidade ul .nostyle {list-style: none !important; margin: 0 auto ; padding: 0;}
+.publicidade ul img{margin: 3px;}
+.publicidade ul li{display: inline; float: left;}
+/* FIM SIDEBAR */
+
+/* INICIO RODAPE */
+.rodape{clear: both; background: #161C21; width: 100%; height: 60px; position: relative; margin-bottom: 5px;}
+.rodape .rodape-esquerdo{text-align: left; width: 600px; height: auto; float: left; position: absolute; bottom: 15px; left: 10px;}
+.rodape .rodape-esquerdo p{font-size: 12px; color: #fff;}
+.rodape .rodape-direito{text-align: right; width: 400px; height: auto; float: right; position: absolute; bottom: 15px; right: 10px;}
+.rodape .rodape-direito p{font-size: 12px; color: #fff;}
+/* FIM RODAPE */
